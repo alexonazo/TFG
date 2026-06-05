@@ -1,0 +1,6 @@
+﻿input_movie,category,num_recommendations,similarity_mean,rating_mean_mean,rating_count_mean,comment
+La la land,accion,5,1.0000000000000002,3.7108215241319775,27437.2,Resultados muy coherentes con la pelicula original.
+Toy Story,animacion,5,0.9999999999999998,3.666006882985002,22258.2,Resultados muy coherentes con la pelicula original.
+"Matrix, The",ciencia_ficcion,5,1.0000000000000002,3.5312633462142804,28395.0,Resultados muy coherentes con la pelicula original.
+Cinema Paradiso,comedia,5,1.0,3.942333382538224,34069.2,Resultados muy coherentes con la pelicula original.
+Interstellar,drama,5,0.816496580927726,3.5266439368782487,10898.8,Resultados muy coherentes con la pelicula original.

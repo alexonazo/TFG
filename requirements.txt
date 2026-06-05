@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+jupyter
+notebook
+ipykernel
+deep-translator
+python-dotenv
+requests

@@ -1,0 +1,26 @@
+﻿title,year,genres,rating_mean,rating_count,similarity_score,shared_genres,shared_genres_count,input_movie,category
+One Flew Over the Cuckoo's Nest,1975,Drama,4.20422945819878,44592,1.0,Drama,1,Cinema Paradiso,comedia
+Requiem for a Dream,2000,Drama,3.983923379510861,29235,1.0,Drama,1,Cinema Paradiso,comedia
+Dead Poets Society,1989,Drama,3.938424359594007,31035,1.0,Drama,1,Cinema Paradiso,comedia
+Rain Man,1988,Drama,3.901394063213556,33284,1.0,Drama,1,Cinema Paradiso,comedia
+Cast Away,2000,Drama,3.683695652173913,32200,1.0,Drama,1,Cinema Paradiso,comedia
+Edge of Tomorrow,2014,Action|Sci-Fi|IMAX,3.9581983805668015,19760,0.816496580927726,"IMAX, Sci-Fi",2,Interstellar,drama
+Gravity,2013,Action|Sci-Fi|IMAX,3.59748427672956,18126,0.816496580927726,"IMAX, Sci-Fi",2,Interstellar,drama
+Cloud Atlas,2012,Drama|Sci-Fi|IMAX,3.56050836949783,8065,0.816496580927726,"IMAX, Sci-Fi",2,Interstellar,drama
+Contagion,2011,Sci-Fi|Thriller|IMAX,3.504482189195565,4239,0.816496580927726,"IMAX, Sci-Fi",2,Interstellar,drama
+The Amazing Spider-Man 2,2014,Action|Sci-Fi|IMAX,3.012546468401487,4304,0.816496580927726,"IMAX, Sci-Fi",2,Interstellar,drama
+Lost in Translation,2003,Comedy|Drama|Romance,3.793685532676131,26273,1.0000000000000002,"Comedy, Drama, Romance",3,La la land,accion
+Shakespeare in Love,1998,Comedy|Drama|Romance,3.773842407501636,27514,1.0000000000000002,"Comedy, Drama, Romance",3,La la land,accion
+As Good as It Gets,1997,Comedy|Drama|Romance,3.7715999411245216,27176,1.0000000000000002,"Comedy, Drama, Romance",3,La la land,accion
+Juno,2007,Comedy|Drama|Romance,3.7047397692371535,24094,1.0000000000000002,"Comedy, Drama, Romance",3,La la land,accion
+Sleepless in Seattle,1993,Comedy|Drama|Romance,3.510239970120452,32129,1.0000000000000002,"Comedy, Drama, Romance",3,La la land,accion
+Blade Runner,1982,Action|Sci-Fi|Thriller,4.110004536714986,46289,1.0000000000000002,"Action, Sci-Fi, Thriller",3,"Matrix, The",ciencia_ficcion
+"Terminator, The",1984,Action|Sci-Fi|Thriller,3.902092041331608,47131,1.0000000000000002,"Action, Sci-Fi, Thriller",3,"Matrix, The",ciencia_ficcion
+Predator,1987,Action|Sci-Fi|Thriller,3.6726752021563343,20776,1.0000000000000002,"Action, Sci-Fi, Thriller",3,"Matrix, The",ciencia_ficcion
+X-Men: The Last Stand,2006,Action|Sci-Fi|Thriller,3.2085626474161963,13991,1.0000000000000002,"Action, Sci-Fi, Thriller",3,"Matrix, The",ciencia_ficcion
+Johnny Mnemonic,1995,Action|Sci-Fi|Thriller,2.762982303452277,13788,1.0000000000000002,"Action, Sci-Fi, Thriller",3,"Matrix, The",ciencia_ficcion
+"Monsters, Inc.",2001,Adventure|Animation|Children|Comedy|Fantasy,3.8374424363541575,46036,1.0,"Adventure, Animation, Children, Comedy, Fantasy",5,Toy Story,animacion
+Moana,2016,Adventure|Animation|Children|Comedy|Fantasy,3.816380768301522,8278,1.0,"Adventure, Animation, Children, Comedy, Fantasy",5,Toy Story,animacion
+Toy Story 2,1999,Adventure|Animation|Children|Comedy|Fantasy,3.81204295811278,32683,1.0,"Adventure, Animation, Children, Comedy, Fantasy",5,Toy Story,animacion
+"Emperor's New Groove, The",2000,Adventure|Animation|Children|Comedy|Fantasy,3.650782547870945,11437,1.0,"Adventure, Animation, Children, Comedy, Fantasy",5,Toy Story,animacion
+Antz,1998,Adventure|Animation|Children|Comedy|Fantasy,3.213385704285604,12857,1.0,"Adventure, Animation, Children, Comedy, Fantasy",5,Toy Story,animacion

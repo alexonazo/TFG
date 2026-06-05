@@ -1,0 +1,39 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Secrets y tokens
+.env
+data/processed/trakt_token.json
+
+# Cachesh y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Archivos temporales
+*.tmp
+*.temp
+*~
+*.swp
+
+# Datasets pesados en bruto
+data/raw/*
+!data/raw/.gitkeep
+
+# Resultados generados
+data/processed/*
+!data/processed/.gitkeep
+reports/graficos/*
+!reports/graficos/.gitkeep
+reports/resultados/*
+!reports/resultados/.gitkeep
+
+# Archivos del sistema
+Thumbs.db
+.DS_Store
+.pytest_cache/
