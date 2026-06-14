@@ -9,7 +9,7 @@ El objetivo del proyecto es construir un recomendador explicable que combine:
 - MovieLens como dataset principal;
 - perfiles de usuario basados en generos y tags;
 - ratings y peliculas vistas reales obtenidas desde Trakt;
-- una fase futura de filtrado colaborativo con KNN;
+- senales colaborativas item-item como parte del recomendador hibrido;
 - un score final hibrido que sea facil de justificar.
 
 ## Arquitectura actual
@@ -29,11 +29,11 @@ El orden recomendado de ejecucion es:
 1. `notebooks/01_carga_datos.ipynb`
 2. `notebooks/02_limpieza_transformacion.ipynb`
 3. `notebooks/03_analisis_exploratorio.ipynb`
-4. `notebooks/06_trakt_api_integracion.ipynb`
-5. `notebooks/09_preprocesado_tags_semanticos.ipynb`
-6. `notebooks/08_recomendador_hibrido_final.ipynb`
+4. `notebooks/04_trakt_api_integracion.ipynb`
+5. `notebooks/05_preprocesado_tags_semanticos.ipynb`
+6. `notebooks/06_recomendador_hibrido_final.ipynb`
 
-El recomendador final es `notebooks/08_recomendador_hibrido_final.ipynb`.
+El recomendador final es `notebooks/06_recomendador_hibrido_final.ipynb`.
 
 ### Notebooks secundarios
 
@@ -99,13 +99,12 @@ La forma recomendada de trabajar es abrir los notebooks en orden, empezando por 
 - `reports/graficos/`: graficos para la memoria.
 - `powerbi/`: datasets preparados para Power BI.
 
-## Proxima refactorizacion
+## Posible refactorizacion futura
 
 En la siguiente fase del proyecto se moveran funciones comunes a:
 
 - `src/trakt_utils.py`
 - `src/profile_recommender.py`
-- `src/collaborative_recommender.py`
 - `src/hybrid_recommender.py`
 
-Todavia no se incorpora el modelo colaborativo KNN. Esa sera la siguiente ampliacion del proyecto.
+La version final actual ya concentra el flujo de recomendacion en `notebooks/06_recomendador_hibrido_final.ipynb`; cualquier ampliacion futura debe mantenerse fuera del flujo principal hasta estar validada.
