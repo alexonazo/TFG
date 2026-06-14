@@ -1,0 +1,163 @@
+﻿movieId,title,year,decade,genres,main_genre,trakt_rating,user_rating_5,watched,rated,profile_type,source
+1172,Cinema Paradiso (Nuovo cinema Paradiso) (1989),1989.0,1980,Drama,Drama,8.0,4.0,True,True,positivo,Trakt
+6016,City of God (Cidade de Deus) (2002),2002.0,2000,Action | Adventure | Crime | Drama | Thriller,Action,8.0,4.0,True,True,positivo,Trakt
+2291,Edward Scissorhands (1990),1990.0,1990,Drama | Fantasy | Romance,Drama,8.0,4.0,True,True,positivo,Trakt
+288135,My Fault (2023),2023.0,2020,Drama | Romance,Drama,3.0,1.5,True,True,negativo,Trakt
+115569,Nightcrawler (2014),2014.0,2010,Crime | Drama | Thriller,Crime,8.0,4.0,True,True,positivo,Trakt
+104913,Rush (2013),2013.0,2010,Action | Drama,Action,8.0,4.0,True,True,positivo,Trakt
+218537,Palm Springs (2020),2020.0,2020,Comedy,Comedy,8.0,4.0,True,True,positivo,Trakt
+1884,Fear and Loathing in Las Vegas (1998),1998.0,1990,Adventure | Comedy | Drama,Adventure,8.0,4.0,True,True,positivo,Trakt
+202429,Once Upon a Time in Hollywood (2019),2019.0,2010,Comedy | Drama,Comedy,9.0,4.5,True,True,positivo,Trakt
+48516,"Departed, The (2006)",2006.0,2000,Crime | Drama | Thriller,Crime,8.0,4.0,True,True,positivo,Trakt
+78499,Toy Story 3 (2010),2010.0,2010,Adventure | Animation | Children | Comedy | Fantasy | IMAX,Adventure,9.0,4.5,True,True,positivo,Trakt
+1258,"Shining, The (1980)",1980.0,1980,Horror,Horror,8.0,4.0,True,True,positivo,Trakt
+8360,Shrek 2 (2004),2004.0,2000,Adventure | Animation | Children | Comedy | Musical | Romance,Adventure,9.0,4.5,True,True,positivo,Trakt
+88125,Harry Potter and the Deathly Hallows: Part 2 (2011),2011.0,2010,Action | Adventure | Drama | Fantasy | Mystery | IMAX,Action,5.0,2.5,True,True,negativo,Trakt
+288513,Barbie (2023),2023.0,2020,Comedy,Comedy,5.0,2.5,True,True,negativo,Trakt
+3114,Toy Story 2 (1999),1999.0,1990,Adventure | Animation | Children | Comedy | Fantasy,Adventure,9.0,4.5,True,True,positivo,Trakt
+4886,"Monsters, Inc. (2001)",2001.0,2000,Adventure | Animation | Children | Comedy | Fantasy,Adventure,8.0,4.0,True,True,positivo,Trakt
+1,Toy Story (1995),1995.0,1990,Adventure | Animation | Children | Comedy | Fantasy,Adventure,8.0,4.0,True,True,positivo,Trakt
+4306,Shrek (2001),2001.0,2000,Adventure | Animation | Children | Comedy | Fantasy | Romance,Adventure,8.0,4.0,True,True,positivo,Trakt
+112552,Whiplash (2014),2014.0,2010,Drama,Drama,8.0,4.0,True,True,positivo,Trakt
+103984,"Great Beauty, The (Grande Bellezza, La) (2013)",2013.0,2010,Comedy | Drama,Comedy,8.0,4.0,True,True,positivo,Trakt
+203375,Ford v. Ferrari (2019),2019.0,2010,Action | Drama,Action,8.0,4.0,True,True,positivo,Trakt
+6502,28 Days Later (2002),2002.0,2000,Action | Horror | Sci-Fi,Action,8.0,4.0,True,True,positivo,Trakt
+176371,Blade Runner 2049 (2017),2017.0,2010,Sci-Fi,Sci-Fi,8.0,4.0,True,True,positivo,Trakt
+1230,Annie Hall (1977),1977.0,1970,Comedy | Romance,Comedy,8.0,4.0,True,True,positivo,Trakt
+79357,Mr. Nobody (2009),2009.0,2000,Drama | Fantasy | Romance | Sci-Fi,Drama,8.0,4.0,True,True,positivo,Trakt
+92259,Intouchables (2011),2011.0,2010,Comedy | Drama,Comedy,8.0,4.0,True,True,positivo,Trakt
+63992,Twilight (2008),2008.0,2000,Drama | Fantasy | Romance | Thriller,Drama,5.0,2.5,True,True,negativo,Trakt
+64614,Gran Torino (2008),2008.0,2000,Crime | Drama,Crime,8.0,4.0,True,True,positivo,Trakt
+114180,"Maze Runner, The (2014)",2014.0,2010,Action | Mystery | Sci-Fi,Action,4.0,2.0,True,True,negativo,Trakt
+273891,Bullet Train (2022),2022.0,2020,Action | Mystery | Thriller,Action,4.0,2.0,True,True,negativo,Trakt
+104841,Gravity (2013),2013.0,2010,Action | Sci-Fi | IMAX,Action,4.0,2.0,True,True,negativo,Trakt
+96610,Looper (2012),2012.0,2010,Action | Crime | Sci-Fi,Action,8.0,4.0,True,True,positivo,Trakt
+76251,Kick-Ass (2010),2010.0,2010,Action | Comedy,Action,5.0,2.5,True,True,negativo,Trakt
+6934,"Matrix Revolutions, The (2003)",2003.0,2000,Action | Adventure | Sci-Fi | Thriller | IMAX,Action,4.0,2.0,True,True,negativo,Trakt
+102903,Now You See Me (2013),2013.0,2010,Crime | Mystery | Thriller,Crime,2.0,1.0,True,True,negativo,Trakt
+139385,The Revenant (2015),2015.0,2010,Adventure | Drama,Adventure,4.0,2.0,True,True,negativo,Trakt
+59315,Iron Man (2008),2008.0,2000,Action | Adventure | Sci-Fi,Action,4.0,2.0,True,True,negativo,Trakt
+174055,Dunkirk (2017),2017.0,2010,Action | Drama | Thriller | War,Action,8.0,4.0,True,True,positivo,Trakt
+98809,"Hobbit: An Unexpected Journey, The (2012)",2012.0,2010,Adventure | Fantasy | IMAX,Adventure,5.0,2.5,True,True,negativo,Trakt
+1241,Dead Alive (Braindead) (1992),1992.0,1990,Comedy | Fantasy | Horror,Comedy,5.0,2.5,True,True,negativo,Trakt
+4878,Donnie Darko (2001),2001.0,2000,Drama | Mystery | Sci-Fi | Thriller,Drama,9.0,4.5,True,True,positivo,Trakt
+115713,Ex Machina (2015),2015.0,2010,Drama | Sci-Fi | Thriller,Drama,8.0,4.0,True,True,positivo,Trakt
+4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",2001.0,2000,Comedy | Romance,Comedy,8.0,4.0,True,True,positivo,Trakt
+541,Blade Runner (1982),1982.0,1980,Action | Sci-Fi | Thriller,Action,8.0,4.0,True,True,positivo,Trakt
+168250,Get Out (2017),2017.0,2010,Horror,Horror,3.0,1.5,True,True,negativo,Trakt
+48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",2006.0,2000,Drama | Fantasy | Thriller,Drama,8.0,4.0,True,True,positivo,Trakt
+74458,Shutter Island (2010),2010.0,2010,Drama | Mystery | Thriller,Drama,9.0,4.5,True,True,positivo,Trakt
+266002,Killers of the Flower Moon,,,Crime | Drama | Thriller,Crime,5.0,2.5,True,True,negativo,Trakt
+97,"Hate (Haine, La) (1995)",1995.0,1990,Crime | Drama,Crime,8.0,4.0,True,True,positivo,Trakt
+275503,Aftersun (2022),2022.0,2020,Drama,Drama,2.0,1.0,True,True,negativo,Trakt
+356,Forrest Gump (1994),1994.0,1990,Comedy | Drama | Romance | War,Comedy,8.0,4.0,True,True,positivo,Trakt
+109487,Interstellar (2014),2014.0,2010,Sci-Fi | IMAX,Sci-Fi,10.0,5.0,True,True,positivo,Trakt
+202439,Parasite (2019),2019.0,2010,Comedy | Drama,Comedy,8.0,4.0,True,True,positivo,Trakt
+209965,Uncut Gems (2019),2019.0,2010,Comedy | Crime | Drama | Thriller,Comedy,8.0,4.0,True,True,positivo,Trakt
+1653,Gattaca (1997),1997.0,1990,Drama | Sci-Fi | Thriller,Drama,8.0,4.0,True,True,positivo,Trakt
+1732,"Big Lebowski, The (1998)",1998.0,1990,Comedy | Crime,Comedy,8.0,4.0,True,True,positivo,Trakt
+8533,"Notebook, The (2004)",2004.0,2000,Drama | Romance,Drama,5.0,2.5,True,True,negativo,Trakt
+608,Fargo (1996),1996.0,1990,Comedy | Crime | Drama | Thriller,Comedy,9.0,4.5,True,True,positivo,Trakt
+1080,Monty Python's Life of Brian (1979),1979.0,1970,Comedy,Comedy,9.0,4.5,True,True,positivo,Trakt
+1682,"Truman Show, The (1998)",1998.0,1990,Comedy | Drama | Sci-Fi,Comedy,8.0,4.0,True,True,positivo,Trakt
+183869,,2018.0,2010,,Unknown,8.0,4.0,True,True,positivo,Trakt
+164179,Arrival (2016),2016.0,2010,Sci-Fi,Sci-Fi,9.0,4.5,True,True,positivo,Trakt
+277066,Triangle of Sadness (2022),2022.0,2020,Comedy | Drama,Comedy,8.0,4.0,True,True,positivo,Trakt
+55820,No Country for Old Men (2007),2007.0,2000,Crime | Drama,Crime,9.0,4.5,True,True,positivo,Trakt
+6586,American Wedding (American Pie 3) (2003),2003.0,2000,Comedy,Comedy,5.0,2.5,True,True,negativo,Trakt
+1701,Deconstructing Harry (1997),1997.0,1990,Comedy | Drama,Comedy,5.0,2.5,True,True,negativo,Trakt
+95441,Ted,2012.0,2010,Comedy | Fantasy,Comedy,,,True,False,visto_sin_rating,Trakt
+260,Star Wars,1977.0,1970,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+1527,The Fifth Element,1997.0,1990,Action | Adventure | Comedy | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+6539,Pirates of the Caribbean: The Curse of the Black Pearl,2003.0,2000,Action | Adventure | Comedy | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+6874,Kill Bill: Vol. 1,2003.0,2000,Action | Crime | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+1208,Apocalypse Now,1979.0,1970,Action | Drama | War,Action,,,True,False,visto_sin_rating,Trakt
+7361,Eternal Sunshine of the Spotless Mind,2004.0,2000,Drama | Romance | Sci-Fi,Drama,,,True,False,visto_sin_rating,Trakt
+45722,Pirates of the Caribbean: Dead Man's Chest,2006.0,2000,Action | Adventure | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+32,Twelve Monkeys,1995.0,1990,Mystery | Sci-Fi | Thriller,Mystery,,,True,False,visto_sin_rating,Trakt
+215,Before Sunrise,1995.0,1990,Drama | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+4226,Memento,2000.0,2000,Mystery | Thriller,Mystery,,,True,False,visto_sin_rating,Trakt
+8638,Before Sunset,2004.0,2000,Drama | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+1198,Raiders of the Lost Ark,1981.0,1980,Action | Adventure,Action,,,True,False,visto_sin_rating,Trakt
+2115,Indiana Jones and the Temple of Doom,1984.0,1980,Action | Adventure | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+1291,Indiana Jones and the Last Crusade,1989.0,1980,Action | Adventure,Action,,,True,False,visto_sin_rating,Trakt
+3578,Gladiator,2000.0,2000,Action | Adventure | Drama,Action,,,True,False,visto_sin_rating,Trakt
+111,Taxi Driver,1976.0,1970,Crime | Drama | Thriller,Crime,,,True,False,visto_sin_rating,Trakt
+4011,Snatch,2000.0,2000,Comedy | Crime | Thriller,Comedy,,,True,False,visto_sin_rating,Trakt
+4993,The Lord of the Rings: The Fellowship of the Ring,2001.0,2000,Adventure | Fantasy,Adventure,,,True,False,visto_sin_rating,Trakt
+5952,The Lord of the Rings: The Two Towers,2002.0,2000,Adventure | Fantasy,Adventure,,,True,False,visto_sin_rating,Trakt
+7153,The Lord of the Rings: The Return of the King,2003.0,2000,Action | Adventure | Drama | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+58559,The Dark Knight,2008.0,2000,Action | Crime | Drama | IMAX,Action,,,True,False,visto_sin_rating,Trakt
+4963,Ocean's Eleven,2001.0,2000,Crime | Thriller,Crime,,,True,False,visto_sin_rating,Trakt
+1206,A Clockwork Orange,1971.0,1970,Crime | Drama | Sci-Fi | Thriller,Crime,,,True,False,visto_sin_rating,Trakt
+2467,The Name of the Rose,1986.0,1980,Crime | Drama | Mystery | Thriller,Crime,,,True,False,visto_sin_rating,Trakt
+1246,Dead Poets Society,1989.0,1980,Drama,Drama,,,True,False,visto_sin_rating,Trakt
+1221,The Godfather: Part II,1974.0,1970,Crime | Drama,Crime,,,True,False,visto_sin_rating,Trakt
+33794,Batman Begins,2005.0,2000,Action | Crime | IMAX,Action,,,True,False,visto_sin_rating,Trakt
+593,The Silence of the Lambs,1991.0,1990,Crime | Horror | Thriller,Crime,,,True,False,visto_sin_rating,Trakt
+53125,Pirates of the Caribbean: At World's End,2007.0,2000,Action | Adventure | Comedy | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+1227,Once Upon a Time in America,1984.0,1980,Crime | Drama,Crime,,,True,False,visto_sin_rating,Trakt
+480,Jurassic Park,1993.0,1990,Action | Adventure | Sci-Fi | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+1214,Alien,1979.0,1970,Horror | Sci-Fi,Horror,,,True,False,visto_sin_rating,Trakt
+7438,Kill Bill: Vol. 2,2004.0,2000,Action | Drama | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+4995,A Beautiful Mind,2001.0,2000,Drama | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+48385,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,2006.0,2000,Comedy,Comedy,,,True,False,visto_sin_rating,Trakt
+16,Casino,1995.0,1990,Crime | Drama,Crime,,,True,False,visto_sin_rating,Trakt
+1222,Full Metal Jacket,1987.0,1980,Drama | War,Drama,,,True,False,visto_sin_rating,Trakt
+2571,The Matrix,1999.0,1990,Action | Sci-Fi | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+1380,Grease,1978.0,1970,Comedy | Musical | Romance,Comedy,,,True,False,visto_sin_rating,Trakt
+778,Trainspotting,1996.0,1990,Comedy | Crime | Drama,Comedy,,,True,False,visto_sin_rating,Trakt
+2324,Life Is Beautiful,1997.0,1990,Comedy | Drama | Romance | War,Comedy,,,True,False,visto_sin_rating,Trakt
+3949,Requiem for a Dream,2000.0,2000,Drama,Drama,,,True,False,visto_sin_rating,Trakt
+296,Pulp Fiction,1994.0,1990,Comedy | Crime | Drama | Thriller,Comedy,,,True,False,visto_sin_rating,Trakt
+2762,The Sixth Sense,1999.0,1990,Drama | Horror | Mystery,Drama,,,True,False,visto_sin_rating,Trakt
+1136,Monty Python and the Holy Grail,1975.0,1970,Adventure | Comedy | Fantasy,Adventure,,,True,False,visto_sin_rating,Trakt
+1213,GoodFellas,1990.0,1990,Crime | Drama,Crime,,,True,False,visto_sin_rating,Trakt
+1210,Return of the Jedi,1983.0,1980,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+4720,The Others,2001.0,2000,Drama | Horror | Mystery | Thriller,Drama,,,True,False,visto_sin_rating,Trakt
+47200,Crank,2006.0,2000,Action | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+8644,"I, Robot",2004.0,2000,Action | Adventure | Sci-Fi | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+4718,American Pie 2,2001.0,2000,Comedy,Comedy,,,True,False,visto_sin_rating,Trakt
+6807,Monty Python's The Meaning of Life,1983.0,1980,Comedy,Comedy,,,True,False,visto_sin_rating,Trakt
+5673,Punch-Drunk Love,2002.0,2000,Comedy | Drama | Romance,Comedy,,,True,False,visto_sin_rating,Trakt
+54503,Superbad,2007.0,2000,Comedy,Comedy,,,True,False,visto_sin_rating,Trakt
+60069,WALL·E,2008.0,2000,Adventure | Animation | Children | Romance | Sci-Fi,Adventure,,,True,False,visto_sin_rating,Trakt
+68954,Up,2009.0,2000,Adventure | Animation | Children | Drama,Adventure,,,True,False,visto_sin_rating,Trakt
+68157,Inglourious Basterds,2009.0,2000,Action | Drama | War,Action,,,True,False,visto_sin_rating,Trakt
+69122,The Hangover,2009.0,2000,Comedy | Crime,Comedy,,,True,False,visto_sin_rating,Trakt
+71535,Zombieland,2009.0,2000,Action | Comedy | Horror,Action,,,True,False,visto_sin_rating,Trakt
+79132,Inception,2010.0,2010,Action | Crime | Drama | Mystery | Sci-Fi | Thriller | IMAX,Action,,,True,False,visto_sin_rating,Trakt
+81847,Tangled,2010.0,2010,Animation | Children | Comedy | Fantasy | Musical | Romance | IMAX,Animation,,,True,False,visto_sin_rating,Trakt
+91529,The Dark Knight Rises,2012.0,2010,Action | Adventure | Crime | IMAX,Action,,,True,False,visto_sin_rating,Trakt
+106489,The Hobbit: The Desolation of Smaug,2013.0,2010,Adventure | Fantasy | IMAX,Adventure,,,True,False,visto_sin_rating,Trakt
+93510,21 Jump Street,2012.0,2010,Action | Comedy | Crime,Action,,,True,False,visto_sin_rating,Trakt
+99114,Django Unchained,2012.0,2010,Action | Drama | Western,Action,,,True,False,visto_sin_rating,Trakt
+122882,Mad Max: Fury Road,2015.0,2010,Action | Adventure | Sci-Fi | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+95449,Magic Mike,2012.0,2010,Drama | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+106487,The Hunger Games: Catching Fire,2013.0,2010,Action | Adventure | Sci-Fi | IMAX,Action,,,True,False,visto_sin_rating,Trakt
+106782,The Wolf of Wall Street,2013.0,2010,Comedy | Crime | Drama,Comedy,,,True,False,visto_sin_rating,Trakt
+112852,Guardians of the Galaxy,2014.0,2010,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+104374,About Time,2013.0,2010,Drama | Fantasy | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+111362,X-Men: Days of Future Past,2014.0,2010,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+116823,The Hunger Games: Mockingjay - Part 1,2014.0,2010,Adventure | Sci-Fi | Thriller,Adventure,,,True,False,visto_sin_rating,Trakt
+135133,The Hunger Games: Mockingjay - Part 2,2015.0,2010,Adventure | Sci-Fi,Adventure,,,True,False,visto_sin_rating,Trakt
+100714,Before Midnight,2013.0,2010,Drama | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+106920,Her,2013.0,2010,Drama | Romance | Sci-Fi,Drama,,,True,False,visto_sin_rating,Trakt
+112183,Birdman or (The Unexpected Virtue of Ignorance),2014.0,2010,Comedy | Drama,Comedy,,,True,False,visto_sin_rating,Trakt
+113741,Coherence,2014.0,2010,Drama | Mystery | Sci-Fi | Thriller,Drama,,,True,False,visto_sin_rating,Trakt
+122912,Avengers: Infinity War,2018.0,2010,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+122914,Avengers: Endgame,2019.0,2010,Action | Adventure | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+164909,La La Land,2016.0,2010,Comedy | Drama | Romance,Comedy,,,True,False,visto_sin_rating,Trakt
+183635,Maze Runner: The Death Cure,2018.0,2010,Action | Mystery | Sci-Fi | Thriller,Action,,,True,False,visto_sin_rating,Trakt
+187593,Deadpool 2,2018.0,2010,Action | Comedy | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+206857,The Irishman,2019.0,2010,Crime | Drama,Crime,,,True,False,visto_sin_rating,Trakt
+231701,Kill Bill: The Whole Bloody Affair,2011.0,2010,Action | Crime,Action,,,True,False,visto_sin_rating,Trakt
+251086,The Suicide Squad,2021.0,2020,Action | Adventure | Crime | Fantasy,Action,,,True,False,visto_sin_rating,Trakt
+254726,Dune,2021.0,2020,Action | Adventure | Drama | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+208703,1917,2019.0,2010,Drama | War,Drama,,,True,False,visto_sin_rating,Trakt
+270698,Everything Everywhere All at Once,2022.0,2020,Action | Comedy | Sci-Fi,Action,,,True,False,visto_sin_rating,Trakt
+220380,The Green Knight,2021.0,2020,Drama | Fantasy | Romance,Drama,,,True,False,visto_sin_rating,Trakt
+281190,Babylon,2022.0,2020,Comedy | Drama,Comedy,,,True,False,visto_sin_rating,Trakt
+244178,The Northman,2022.0,2020,Adventure | Drama | Thriller,Adventure,,,True,False,visto_sin_rating,Trakt
+286357,Evil Dead Rise,2023.0,2020,Horror | Thriller,Horror,,,True,False,visto_sin_rating,Trakt
+287699,Oppenheimer,2023.0,2020,Drama,Drama,,,True,False,visto_sin_rating,Trakt
