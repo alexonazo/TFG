@@ -46,5 +46,6 @@ Estos notebooks no deben ejecutarse como parte del flujo principal salvo que se 
 ## Notas
 
 - El notebook 06 es el que genera las recomendaciones finales y las exportaciones asociadas.
-- Power BI permanece desactivado en el flujo final actual.
+- Power BI se exporta desde `06_recomendador_hibrido_final.ipynb` a `../powerbi/datasets/`.
+- La entrega final de Power BI usa cuatro datasets: `recomendaciones_finales.csv`, `perfil_usuario_trakt.csv`, `metricas_recomendador.csv` y `distribucion_recomendaciones.csv`.
 - No se han limpiado outputs ni cambiado datos o credenciales.

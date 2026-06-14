@@ -86,6 +86,7 @@ La forma recomendada de trabajar es abrir los notebooks en orden, empezando por 
 - integracion con Trakt
 - tags semanticos preprocesados
 - recomendador hibrido final
+- datasets finales para Power BI en `powerbi/datasets/`
 
 ## Estructura de carpetas
 
@@ -98,6 +99,13 @@ La forma recomendada de trabajar es abrir los notebooks en orden, empezando por 
 - `reports/resultados/`: tablas y resultados exportados.
 - `reports/graficos/`: graficos para la memoria.
 - `powerbi/`: datasets preparados para Power BI.
+
+El notebook final genera cuatro datasets para Power BI:
+
+- `powerbi/datasets/recomendaciones_finales.csv`
+- `powerbi/datasets/perfil_usuario_trakt.csv`
+- `powerbi/datasets/metricas_recomendador.csv`
+- `powerbi/datasets/distribucion_recomendaciones.csv`
 
 ## Posible refactorizacion futura
 
