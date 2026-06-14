@@ -17,8 +17,8 @@ El objetivo del proyecto es construir un recomendador explicable que combine:
 La estructura del proyecto se organiza en tres capas:
 
 1. Preparacion de datos.
-2. Recomendadores explicables basados en contenido y perfil.
-3. Integracion con Trakt y exportacion de resultados.
+2. Integracion con Trakt y enriquecimiento semantico.
+3. Recomendador hibrido final explicable.
 
 ## Flujo de notebooks
 
@@ -29,16 +29,20 @@ El orden recomendado de ejecucion es:
 1. `notebooks/01_carga_datos.ipynb`
 2. `notebooks/02_limpieza_transformacion.ipynb`
 3. `notebooks/03_analisis_exploratorio.ipynb`
-4. `notebooks/04c_recomendador_avanzado.ipynb`
-5. `notebooks/04d_recomendador_perfil_usuario_explicable.ipynb`
-6. `notebooks/06_trakt_api_integracion.ipynb`
+4. `notebooks/06_trakt_api_integracion.ipynb`
+5. `notebooks/09_preprocesado_tags_semanticos.ipynb`
+6. `notebooks/08_recomendador_hibrido_final.ipynb`
+
+El recomendador final es `notebooks/08_recomendador_hibrido_final.ipynb`.
 
 ### Notebooks secundarios
 
-Estos notebooks se mantienen como apoyo, pero no forman parte del flujo principal:
+Estos notebooks se conservan como archivo historico, pero no forman parte del flujo principal:
 
-- `notebooks/05_evaluacion_resultados.ipynb`
-- `notebooks/06_export_powerbi.ipynb`
+- `notebooks/archive/04c_recomendador_avanzado.ipynb`
+- `notebooks/archive/04d_recomendador_perfil_usuario_explicable.ipynb`
+- `notebooks/archive/05_evaluacion_resultados.ipynb`
+- `notebooks/archive/06_export_powerbi.ipynb`
 
 ### Experimentos
 
@@ -46,6 +50,9 @@ Las versiones previas del recomendador se han movido a:
 
 - `notebooks/experiments/04_recomendador_contenido.ipynb`
 - `notebooks/experiments/04b_recomendador_generos_tags.ipynb`
+- `notebooks/experiments/07_lightfm_hybrid_model.ipynb`
+
+LightFM queda como experimento y no forma parte del recomendador final.
 
 ## Integracion con Trakt
 
@@ -76,9 +83,9 @@ La forma recomendada de trabajar es abrir los notebooks en orden, empezando por 
 
 - `movies_clean.csv`
 - tags traducidos y normalizados
-- recomendador avanzado
-- recomendador por perfil de usuario
 - integracion con Trakt
+- tags semanticos preprocesados
+- recomendador hibrido final
 
 ## Estructura de carpetas
 
@@ -86,6 +93,7 @@ La forma recomendada de trabajar es abrir los notebooks en orden, empezando por 
 - `data/processed/`: datos limpios y ficheros intermedios.
 - `notebooks/`: flujo principal del proyecto.
 - `notebooks/experiments/`: versiones previas o experimentales.
+- `notebooks/archive/`: evolucion historica fuera del flujo principal.
 - `src/`: funciones reutilizables.
 - `reports/resultados/`: tablas y resultados exportados.
 - `reports/graficos/`: graficos para la memoria.
