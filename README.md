@@ -1,30 +1,150 @@
-# TFG Recomendador de Peliculas
+# Sistema híbrido y explicable de recomendación de películas
 
-Proyecto de TFG de IA y Big Data sobre un recomendador de peliculas explicable e hibrido usando MovieLens como base y Trakt como fuente de datos reales del usuario.
+Proyecto final del Curso de Especialización en Inteligencia Artificial y Big Data. El objetivo del proyecto es construir un recomendador de películas que combine datos públicos de MovieLens con preferencias reales del usuario obtenidas desde Trakt, generando recomendaciones justificables y exportables a Power BI.
 
-## Objetivo actual
+## 1. Resumen del proyecto
 
-El objetivo del proyecto es construir un recomendador explicable que combine:
+El sistema trabaja con un flujo de datos completo:
 
-- MovieLens como dataset principal;
-- perfiles de usuario basados en generos y tags;
-- ratings y peliculas vistas reales obtenidas desde Trakt;
-- senales colaborativas item-item como parte del recomendador hibrido;
-- un score final hibrido que sea facil de justificar.
+1. **Carga de datos**: lectura de los ficheros originales de MovieLens.
+2. **Limpieza y transformación**: tratamiento de títulos, años, géneros, tags y métricas de popularidad.
+3. **Análisis exploratorio**: revisión de distribución de películas, valoraciones, géneros y calidad del dataset.
+4. **Integración con Trakt**: obtención de ratings y películas vistas del usuario mediante API.
+5. **Preprocesado semántico**: preparación de tags y señales útiles para el recomendador.
+6. **Recomendador híbrido final**: combinación de contenido, perfil de usuario, señal colaborativa y reglas de diversidad.
+7. **Visualización**: generación de datasets finales para Power BI.
 
-## Arquitectura actual
+El resultado final no se limita a devolver una lista de películas. También aporta información explicativa sobre por qué se recomienda cada título y permite analizar el comportamiento del recomendador mediante métricas y visualizaciones.
 
-La estructura del proyecto se organiza en tres capas:
+## 2. Estructura del repositorio
 
-1. Preparacion de datos.
-2. Integracion con Trakt y enriquecimiento semantico.
-3. Recomendador hibrido final explicable.
+```text
+TFG/
+│
+├── data/
+│   ├── raw/                 # Datos originales de MovieLens. No se suben a GitHub.
+│   └── processed/           # Datos procesados generados por los notebooks. No se suben a GitHub.
+│
+├── notebooks/
+│   ├── 01_carga_datos.ipynb
+│   ├── 02_limpieza_transformacion.ipynb
+│   ├── 03_analisis_exploratorio.ipynb
+│   ├── 04_trakt_api_integracion.ipynb
+│   ├── 05_preprocesado_tags_semanticos.ipynb
+│   ├── 06_recomendador_hibrido_final.ipynb
+│   ├── archive/             # Notebooks históricos fuera del flujo final.
+│   └── experiments/         # Experimentos que no forman parte de la entrega final.
+│
+├── powerbi/
+│   ├── datasets/            # CSV finales para Power BI.
+│   ├── recomendador_peliculas_dashboard.pbip
+│   ├── recomendador_peliculas_dashboard.Report/
+│   └── recomendador_peliculas_dashboard.SemanticModel/
+│
+├── reports/
+│   ├── graficos/            # Gráficos generados para memoria y presentación.
+│   ├── resultados/          # Tablas y resultados exportados.
+│   └── figures/ powerbi_preview/
+│
+├── src/                     # Funciones reutilizables del proyecto.
+│
+├── .env.example             # Plantilla de variables de entorno para Trakt.
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
 
-## Flujo de notebooks
+## 3. Requisitos previos
 
-### Flujo principal
+### Software recomendado
 
-El orden recomendado de ejecucion es:
+- Python 3.10 o superior.
+- Jupyter Notebook o JupyterLab.
+- Git, si se va a clonar el repositorio.
+- Power BI Desktop, si se desea abrir o modificar el dashboard.
+- Cuenta de Trakt, solo si se desea ejecutar la integración con datos personales reales.
+
+### Dependencias de Python
+
+Desde la raíz del proyecto:
+
+```bash
+python -m venv .venv
+```
+
+En Windows:
+
+```bash
+.venv\Scripts\activate
+```
+
+En macOS/Linux:
+
+```bash
+source .venv/bin/activate
+```
+
+Instalación de librerías:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Datos necesarios
+
+El proyecto utiliza MovieLens como fuente principal. Los datos originales no se suben al repositorio para evitar incluir ficheros pesados, pero deben colocarse en:
+
+```text
+data/raw/
+```
+
+La carpeta `data/raw/` debe contener, como mínimo:
+
+```text
+movies.csv
+ratings.csv
+tags.csv
+links.csv
+```
+
+La carpeta `data/processed/` se genera al ejecutar los notebooks. Para la entrega final en Drive puede incluirse ya preparada, de forma que el evaluador pueda revisar el proyecto sin repetir todo el procesamiento.
+
+## 5. Modos de ejecución
+
+El proyecto se puede utilizar de dos formas.
+
+### Modo A: ejecución completa desde cero
+
+Este modo reproduce todo el flujo técnico del proyecto.
+
+1. Colocar los CSV de MovieLens en `data/raw/`.
+2. Crear el entorno virtual e instalar dependencias.
+3. Configurar Trakt si se desea usar datos reales del usuario.
+4. Abrir Jupyter.
+5. Ejecutar los notebooks del `01` al `06` en orden.
+6. Revisar los CSV generados en `powerbi/datasets/`.
+7. Abrir Power BI y actualizar el dashboard.
+
+### Modo B: ejecución offline directa para revisión
+
+Este modo está pensado para la entrega final y para la corrección del proyecto. No requiere conectarse a Trakt ni volver a descargar datos, siempre que la carpeta entregada incluya los datos ya generados.
+
+1. Descomprimir la carpeta final del proyecto.
+2. Comprobar que existen:
+   - `data/raw/` con los CSV originales de MovieLens;
+   - `data/processed/` con los ficheros procesados;
+   - `powerbi/datasets/` con los CSV finales;
+   - `notebooks/` con los notebooks ejecutados;
+   - `powerbi/` con el dashboard.
+3. Crear entorno virtual e instalar dependencias si se quieren abrir o reejecutar notebooks.
+4. Abrir `notebooks/06_recomendador_hibrido_final.ipynb` para revisar el resultado final.
+5. Abrir el dashboard de Power BI usando los CSV ya generados.
+
+En este modo se puede revisar el proyecto sin usar credenciales personales de Trakt. El notebook de Trakt queda documentado como parte del flujo, pero no es obligatorio reautenticar si los resultados ya han sido generados previamente.
+
+## 6. Flujo principal de notebooks
+
+El flujo final del proyecto está formado por estos notebooks:
 
 1. `notebooks/01_carga_datos.ipynb`
 2. `notebooks/02_limpieza_transformacion.ipynb`
@@ -33,86 +153,88 @@ El orden recomendado de ejecucion es:
 5. `notebooks/05_preprocesado_tags_semanticos.ipynb`
 6. `notebooks/06_recomendador_hibrido_final.ipynb`
 
-El recomendador final es `notebooks/06_recomendador_hibrido_final.ipynb`.
+El recomendador final se encuentra en:
 
-### Notebooks secundarios
-
-Estos notebooks se conservan como archivo historico, pero no forman parte del flujo principal:
-
-- `notebooks/archive/04c_recomendador_avanzado.ipynb`
-- `notebooks/archive/04d_recomendador_perfil_usuario_explicable.ipynb`
-- `notebooks/archive/05_evaluacion_resultados.ipynb`
-- `notebooks/archive/06_export_powerbi.ipynb`
-
-### Experimentos
-
-Las versiones previas del recomendador se han movido a:
-
-- `notebooks/experiments/04_recomendador_contenido.ipynb`
-- `notebooks/experiments/04b_recomendador_generos_tags.ipynb`
-- `notebooks/experiments/07_lightfm_hybrid_model.ipynb`
-
-LightFM queda como experimento y no forma parte del recomendador final.
-
-## Integracion con Trakt
-
-El proyecto ya incluye una integracion funcional con Trakt para:
-
-- autenticar el usuario con device flow;
-- descargar ratings reales;
-- descargar peliculas vistas;
-- mapear esos datos con MovieLens mediante `links.csv`;
-- preparar un perfil compatible con el recomendador explicable.
-
-Los ficheros sensibles no deben subirse al repositorio:
-
-- `.env`
-- `data/processed/trakt_token.json`
-
-## Instalacion
-
-Crear un entorno virtual e instalar dependencias:
-
-```bash
-pip install -r requirements.txt
+```text
+notebooks/06_recomendador_hibrido_final.ipynb
 ```
 
-## Ejecucion
+Los notebooks de `archive/` y `experiments/` no forman parte de la ejecución final. Se conservan únicamente como trazabilidad del desarrollo.
 
-La forma recomendada de trabajar es abrir los notebooks en orden, empezando por la carga y limpieza de datos. El flujo principal deja preparados:
+## 7. Integración con Trakt
 
-- `movies_clean.csv`
-- tags traducidos y normalizados
-- integracion con Trakt
-- tags semanticos preprocesados
-- recomendador hibrido final
-- datasets finales para Power BI en `powerbi/datasets/`
+La integración con Trakt permite usar ratings y películas vistas reales del usuario. Para ello se debe crear una aplicación en Trakt y configurar un archivo `.env` a partir de `.env.example`.
 
-## Estructura de carpetas
+El archivo `.env.example` contiene la estructura esperada:
 
-- `data/raw/`: datos originales.
-- `data/processed/`: datos limpios y ficheros intermedios.
-- `notebooks/`: flujo principal del proyecto.
-- `notebooks/experiments/`: versiones previas o experimentales.
-- `notebooks/archive/`: evolucion historica fuera del flujo principal.
-- `src/`: funciones reutilizables.
-- `reports/resultados/`: tablas y resultados exportados.
-- `reports/graficos/`: graficos para la memoria.
-- `powerbi/`: datasets preparados para Power BI.
+```env
+TRAKT_CLIENT_ID=your_client_id_here
+TRAKT_CLIENT_SECRET=your_client_secret_here
+TRAKT_SCOPE=public
+```
 
-El notebook final genera cuatro datasets para Power BI:
+Para configurar las credenciales:
 
-- `powerbi/datasets/recomendaciones_finales.csv`
-- `powerbi/datasets/perfil_usuario_trakt.csv`
-- `powerbi/datasets/metricas_recomendador.csv`
-- `powerbi/datasets/distribucion_recomendaciones.csv`
+1. Copiar `.env.example` y renombrarlo a `.env`.
+2. Sustituir `your_client_id_here` por el Client ID de la aplicación de Trakt.
+3. Sustituir `your_client_secret_here` por el Client Secret de la aplicación de Trakt.
+4. Ejecutar `notebooks/04_trakt_api_integracion.ipynb`.
+5. Seguir el proceso de autenticación que indique el notebook.
 
-## Posible refactorizacion futura
+Los siguientes ficheros no deben subirse nunca al repositorio:
 
-En la siguiente fase del proyecto se moveran funciones comunes a:
+```text
+.env
+data/processed/trakt_token.json
+```
 
-- `src/trakt_utils.py`
-- `src/profile_recommender.py`
-- `src/hybrid_recommender.py`
+## 8. Salidas finales para Power BI
 
-La version final actual ya concentra el flujo de recomendacion en `notebooks/06_recomendador_hibrido_final.ipynb`; cualquier ampliacion futura debe mantenerse fuera del flujo principal hasta estar validada.
+El notebook final genera los datasets que alimentan el dashboard:
+
+```text
+powerbi/datasets/recomendaciones_finales.csv
+powerbi/datasets/perfil_usuario_trakt.csv
+powerbi/datasets/metricas_recomendador.csv
+powerbi/datasets/distribucion_recomendaciones.csv
+```
+
+Estos ficheros se pueden abrir directamente desde Power BI Desktop o desde el proyecto `.pbip` incluido en `powerbi/`.
+
+## 9. Entrega recomendada
+
+Para la entrega final conviene incluir en Drive:
+
+```text
+TFG_Alex_Bustillo_Echevarria/
+│
+├── memoria/
+│   ├── Memoria_TFG_Alex_Bustillo.docx
+│   └── Memoria_TFG_Alex_Bustillo.pdf
+│
+├── presentacion/
+│   ├── Presentacion_TFG_Alex_Bustillo.pptx
+│   └── Presentacion_TFG_Alex_Bustillo.pdf
+│
+├── video/
+│   └── Defensa_TFG_Alex_Bustillo.mp4
+│
+├── codigo/
+│   ├── TFG.zip
+│   └── README_ENTREGA.txt
+│
+└── powerbi/
+    ├── recomendador_peliculas_dashboard.pbix
+    └── datasets/
+```
+
+## 10. Notas de seguridad
+
+- No se suben credenciales personales al repositorio.
+- `.env` queda ignorado por Git.
+- El token de Trakt no debe entregarse salvo que se quiera reproducir exactamente la sesión del autor en un entorno controlado.
+- Para una revisión offline basta con entregar los CSV finales ya generados.
+
+## 11. Estado de los experimentos
+
+LightFM y otras variantes previas se conservan en `notebooks/experiments/`, pero no forman parte del sistema final. El sistema final entregado corresponde al flujo principal `01-06`.
