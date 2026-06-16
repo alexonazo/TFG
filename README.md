@@ -115,6 +115,23 @@ El proyecto se puede utilizar de dos formas.
 
 ### Modo A: ejecución completa desde cero
 
+# Datos brutos => data/raw
+
+Esta carpeta debe contener los archivos originales del dataset MovieLens 32M:
+
+- movies.csv
+- ratings.csv
+- tags.csv
+- links.csv
+
+Por tamaño, estos archivos no se incluyen en GitHub.  
+Para reproducir el proyecto deben descargarse desde la página oficial de GroupLens:
+
+MovieLens 32M Dataset:
+https://grouplens.org/datasets/movielens/32m/
+
+Una vez descargado el ZIP, deben copiarse los cuatro CSV anteriores dentro de esta carpeta.
+
 Este modo reproduce todo el flujo técnico del proyecto.
 
 1. Colocar los CSV de MovieLens en `data/raw/`.
