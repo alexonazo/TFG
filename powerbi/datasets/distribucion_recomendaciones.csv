@@ -6,10 +6,10 @@ decade,2010,2,10.0
 decade,1970,1,5.0
 decade,2020,1,5.0
 dominant_signal_label,Afinidad temporal,9,45.0
-dominant_signal_label,Calidad / valoraci?n,6,30.0
+dominant_signal_label,Calidad / valoración,6,30.0
 dominant_signal_label,Margen positivo,3,15.0
 dominant_signal_label,Anclas de favoritas,1,5.0
-dominant_signal_label,Se?al colaborativa,1,5.0
+dominant_signal_label,Señal colaborativa,1,5.0
 main_genre,Drama,8,40.0
 main_genre,Crime,3,15.0
 main_genre,Action,2,10.0
@@ -24,6 +24,6 @@ recommendation_branch,animation_family,3,15.0
 recommendation_branch,psychological_thriller,3,15.0
 recommendation_branch,sci_fi_reflective,3,15.0
 recommendation_bucket_label,Descubrimiento compatible,12,60.0
-recommendation_bucket_label,T?tulo consolidado,6,30.0
+recommendation_bucket_label,Título consolidado,6,30.0
 recommendation_bucket_label,Apuesta segura,1,5.0
 recommendation_bucket_label,Muy parecida a favoritas,1,5.0
