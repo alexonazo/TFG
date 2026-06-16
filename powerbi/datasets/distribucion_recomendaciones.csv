@@ -1,28 +1,24 @@
 ﻿dimension;category;count;percentage
-decade;2000;8;40
-decade;1990;6;30
-decade;1980;2;10
-decade;2010;2;10
-decade;1970;1;5
-decade;2020;1;5
-main_genre;Drama;8;40
-main_genre;Crime;3;15
-main_genre;Action;2;10
-main_genre;Animation;2;10
-main_genre;Comedy;2;10
-main_genre;Adventure;1;5
-main_genre;Mystery;1;5
-main_genre;Sci-Fi;1;5
-recommendation_bucket_label;Descubrimiento compatible;12;60
-recommendation_bucket_label;Título consolidado;6;30
-recommendation_bucket_label;Apuesta segura;1;5
-recommendation_bucket_label;Muy parecida a favoritas;1;5
-recommendation_branch;crime_thriller;6;30
-recommendation_branch;emotional_character_drama;5;25
-recommendation_branch;animation_family;3;15
-recommendation_branch;psychological_thriller;3;15
-recommendation_branch;sci_fi_reflective;3;15
-dominant_signal_label;Margen positivo;12;60
-dominant_signal_label;Calidad / valoración;6;30
-dominant_signal_label;Anclas de favoritas;1;5
-dominant_signal_label;Señal colaborativa;1;5
+decade;1990;6;30,0
+decade;2000;6;30,0
+decade;1980;5;25,0
+decade;2010;3;15,0
+dominant_signal_label;Reordenación limitada;15;75,0
+dominant_signal_label;Margen positivo;3;15,0
+dominant_signal_label;Calidad / valoración;2;10,0
+main_genre;Drama;8;40,0
+main_genre;Mystery;4;20,0
+main_genre;Action;3;15,0
+main_genre;Crime;3;15,0
+main_genre;Comedy;1;5,0
+main_genre;Horror;1;5,0
+recommendation_branch;crime_thriller;6;30,0
+recommendation_branch;emotional_character_drama;6;30,0
+recommendation_branch;psychological_thriller;6;30,0
+recommendation_branch;satire_surreal_comedy;1;5,0
+recommendation_branch;sci_fi_reflective;1;5,0
+recommendation_bucket_label;Descubrimiento compatible;10;50,0
+recommendation_bucket_label;Título consolidado;6;30,0
+recommendation_bucket_label;Riesgo controlado;2;10,0
+recommendation_bucket_label;Apuesta segura;1;5,0
+recommendation_bucket_label;Muy parecida a favoritas;1;5,0
