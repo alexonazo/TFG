@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.0.0/schema.json",
+  "name": "Diversidad",
+  "displayName": "Diversidad",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "annotations": [
+    {
+      "name": "visualPlan",
+      "value": "Barras de distribucion_recomendaciones filtradas por dimension: main_genre, decade, recommendation_bucket_label y recommendation_branch. Eje category, valor count."
+    }
+  ]
+}

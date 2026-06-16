@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.0.0/schema.json",
+  "name": "Explicabilidad",
+  "displayName": "Explicabilidad",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "annotations": [
+    {
+      "name": "visualPlan",
+      "value": "Dispersion false_positive_risk vs preference_margin_score con tamano final_recommendation_score, detalle title y leyenda recommendation_bucket_label. Barras dominant_signal_label por recuento de title. Tabla rank, title, recommendation_bucket_label, dominant_signal_label, temporal_affinity_label, anchor_movies_matched, explanation_display."
+    }
+  ]
+}

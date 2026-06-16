@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/1.0.0/schema.json",
+  "name": "Perfil_Trakt",
+  "displayName": "Perfil Trakt",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "annotations": [
+    {
+      "name": "visualPlan",
+      "value": "Barras profile_type por recuento de title; barras main_genre por recuento de title con leyenda profile_type; barras decade por recuento de title con leyenda profile_type; tabla title, year, genres, user_rating_5, profile_type."
+    }
+  ]
+}
