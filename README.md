@@ -201,40 +201,13 @@ powerbi/datasets/distribucion_recomendaciones.csv
 
 Estos ficheros se pueden abrir directamente desde Power BI Desktop o desde el proyecto `.pbip` incluido en `powerbi/`.
 
-## 9. Entrega recomendada
-
-Para la entrega final conviene incluir en Drive:
-
-```text
-TFG_Alex_Bustillo_Echevarria/
-│
-├── memoria/
-│   ├── Memoria_TFG_Alex_Bustillo.docx
-│   └── Memoria_TFG_Alex_Bustillo.pdf
-│
-├── presentacion/
-│   ├── Presentacion_TFG_Alex_Bustillo.pptx
-│   └── Presentacion_TFG_Alex_Bustillo.pdf
-│
-├── video/
-│   └── Defensa_TFG_Alex_Bustillo.mp4
-│
-├── codigo/
-│   ├── TFG.zip
-│   └── README_ENTREGA.txt
-│
-└── powerbi/
-    ├── recomendador_peliculas_dashboard.pbix
-    └── datasets/
-```
-
-## 10. Notas de seguridad
+## 9. Notas de seguridad
 
 - No se suben credenciales personales al repositorio.
 - `.env` queda ignorado por Git.
 - El token de Trakt no debe entregarse salvo que se quiera reproducir exactamente la sesión del autor en un entorno controlado.
 - Para una revisión offline basta con entregar los CSV finales ya generados.
 
-## 11. Estado de los experimentos
+## 10. Estado de los experimentos
 
 LightFM y otras variantes previas se conservan en `notebooks/experiments/`, pero no forman parte del sistema final. El sistema final entregado corresponde al flujo principal `01-06`.
