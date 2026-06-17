@@ -33,8 +33,6 @@ data/raw/*
 !data/raw/.gitkeep
 
 # Resultados generados
-data/processed/*
-!data/processed/.gitkeep
 reports/debug/
 reports/graficos/*
 !reports/graficos/.gitkeep

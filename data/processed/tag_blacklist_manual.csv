@@ -1,0 +1,176 @@
+tag_clean,reason
+amazon,admin_platform
+bd-r,admin_platform
+bdr,admin_platform
+blu-ray,admin_platform
+blue-ray,admin_platform
+bluray,admin_platform
+collection,admin_platform
+criterion,admin_platform
+criterion collection,admin_platform
+dvd,admin_platform
+hulu,admin_platform
+library,admin_platform
+netflix,admin_platform
+on dvr,admin_platform
+recorded,admin_platform
+tivo,admin_platform
+vhs,admin_platform
+academy award,award
+academy awards,award
+award nominated,award
+award winner,award
+best picture,award
+cannes,award
+festival winner,award
+film festival,award
+golden globe,award
+golden palm,award
+oscar,award
+oscar nominated,award
+oscar winner,award
+oscars,award
+palme d'or,award
+full frontal nudity,format_or_source
+nudity,format_or_source
+nudity (full frontal),format_or_source
+sex,format_or_source
+sexual content,format_or_source
+acting,generic_rating
+amazing,generic_rating
+awesome,generic_rating
+awful,generic_rating
+bad,generic_rating
+bad acting,generic_rating
+beautiful,generic_rating
+beautifully filmed,generic_rating
+best,generic_rating
+boring,generic_rating
+brilliant,generic_rating
+entertaining,generic_rating
+excellent,generic_rating
+favorite,generic_rating
+favorites,generic_rating
+favourite,generic_rating
+favourites,generic_rating
+funny,generic_rating
+good,generic_rating
+good acting,generic_rating
+great,generic_rating
+great acting,generic_rating
+hilarious,generic_rating
+inspirational,generic_rating
+masterpiece,generic_rating
+mediocre,generic_rating
+overrated,generic_rating
+slow paced,generic_rating
+terrible,generic_rating
+touching,generic_rating
+underrated,generic_rating
+very funny,generic_rating
+well acted,generic_rating
+well made,generic_rating
+well-acted,generic_rating
+well-made,generic_rating
+worst,generic_rating
+adaptation,metadata_weak
+adapted from,metadata_weak
+based on,metadata_weak
+based on a book,metadata_weak
+based on a true story,metadata_weak
+based on book,metadata_weak
+based on real events,metadata_weak
+based on true story,metadata_weak
+cinema,metadata_weak
+cinematic,metadata_weak
+film,metadata_weak
+films,metadata_weak
+foreign,metadata_weak
+foreign language,metadata_weak
+franchise,metadata_weak
+made for tv,metadata_weak
+miniseries,metadata_weak
+movie,metadata_weak
+movies,metadata_weak
+original,metadata_weak
+remake,metadata_weak
+sequel,metadata_weak
+television,metadata_weak
+true story,metadata_weak
+tv movie,metadata_weak
+own,ownership_watch_status
+owned,ownership_watch_status
+seen,ownership_watch_status
+to watch,ownership_watch_status
+want to see,ownership_watch_status
+watched,ownership_watch_status
+watchlist,ownership_watch_status
+brad pitt,person_or_studio_manual
+christopher nolan,person_or_studio_manual
+coen brother,person_or_studio_manual
+coen brothers,person_or_studio_manual
+david fincher,person_or_studio_manual
+dc,person_or_studio_manual
+dc comics,person_or_studio_manual
+disney,person_or_studio_manual
+dreamworks,person_or_studio_manual
+ghibli,person_or_studio_manual
+hans zimmer,person_or_studio_manual
+hbo,person_or_studio_manual
+jack nicholson,person_or_studio_manual
+jesse eisenberg,person_or_studio_manual
+jordan peele,person_or_studio_manual
+leonardo dicaprio,person_or_studio_manual
+lucasfilm,person_or_studio_manual
+martin scorsese,person_or_studio_manual
+marvel,person_or_studio_manual
+morgan freeman,person_or_studio_manual
+netflix original,person_or_studio_manual
+pixar,person_or_studio_manual
+quentin tarantino,person_or_studio_manual
+ridley scott,person_or_studio_manual
+robert downey jr.,person_or_studio_manual
+sandra bullock,person_or_studio_manual
+steven spielberg,person_or_studio_manual
+studio ghibli,person_or_studio_manual
+tom hanks,person_or_studio_manual
+walt disney,person_or_studio_manual
+warner bros,person_or_studio_manual
+action,pure_genre
+adventure,pure_genre
+animation,pure_genre
+children,pure_genre
+comedy,pure_genre
+crime,pure_genre
+documentary,pure_genre
+drama,pure_genre
+fantasy,pure_genre
+film noir,pure_genre
+film-noir,pure_genre
+horror,pure_genre
+musical,pure_genre
+mystery,pure_genre
+noir,pure_genre
+romance,pure_genre
+sci-fi,pure_genre
+science fiction,pure_genre
+thriller,pure_genre
+war,pure_genre
+western,pure_genre
+1001 movies,ranking_or_canon
+1001 movies you must see before you die,ranking_or_canon
+afi,ranking_or_canon
+afi 100,ranking_or_canon
+classic,ranking_or_canon
+classics,ranking_or_canon
+cult classic,ranking_or_canon
+cult film,ranking_or_canon
+imdb,ranking_or_canon
+imdb top 250,ranking_or_canon
+library of congress,ranking_or_canon
+must see,ranking_or_canon
+national film registry,ranking_or_canon
+sight & sound,ranking_or_canon
+sight and sound,ranking_or_canon
+top 100,ranking_or_canon
+top 250,ranking_or_canon
