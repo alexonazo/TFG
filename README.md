@@ -220,6 +220,15 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+#### Selección de kernel en Codespaces
+
+Si el notebook no detecta automáticamente el entorno virtual, se puede registrar manualmente el kernel de Jupyter:
+
+```bash
+python -m pip install ipykernel jupyter notebook
+python -m ipykernel install --user --name tfg-venv --display-name "TFG Python"
+jupyter kernelspec list
+
 7. Abrir Jupyter:
 
 ```bash
