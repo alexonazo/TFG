@@ -138,7 +138,7 @@ Este modo reproduce todo el flujo técnico del proyecto.
 2. Crear el entorno virtual e instalar dependencias.
 3. Configurar Trakt si se desea usar datos reales del usuario.
 4. Abrir Jupyter.
-5. Ejecutar los notebooks del `01` al `06` en orden.
+5. Ejecutar los notebooks del `01` al `06` en orden (El 04 no es necesario si no se tiene una cuenta de trakt, los archivos de un perfil de ejemplo están disponibles en data/processed).
 6. Revisar los CSV generados en `powerbi/datasets/`.
 7. Abrir Power BI y actualizar el dashboard.
 

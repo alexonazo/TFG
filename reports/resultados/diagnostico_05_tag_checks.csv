@@ -1,0 +1,45 @@
+﻿type,tag_clean,present_in_tags_semantic_clean
+problematic,national film registry,False
+problematic,pixar,False
+problematic,disney,False
+problematic,brilliant,False
+problematic,foreign,False
+problematic,based on a true story,False
+problematic,1980s,False
+problematic,nudity (full frontal),False
+problematic,dave franco,False
+problematic,isla fisher,False
+problematic,christopher nolan,False
+problematic,coen brothers,False
+problematic,tom hanks,False
+problematic,hans zimmer,False
+problematic,great acting,False
+problematic,cult film,False
+problematic,owned,False
+problematic,imdb top 250,False
+problematic,oscar,False
+problematic,criterion,False
+problematic,dvd,False
+problematic,netflix,False
+useful,surrealism,True
+useful,dreamlike,True
+useful,existentialism,True
+useful,psychological,True
+useful,ambiguous ending,True
+useful,neo-noir,True
+useful,atmospheric,True
+useful,time travel,True
+useful,thought-provoking,True
+useful,dark comedy,True
+useful,black comedy,True
+useful,social commentary,True
+useful,plot twist,True
+useful,twist ending,True
+useful,mindfuck,True
+useful,bittersweet,True
+useful,quirky,True
+useful,satirical,True
+useful,cerebral,True
+useful,magical realism,True
+useful,tense,True
+useful,morality,True

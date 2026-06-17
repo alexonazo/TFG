@@ -36,8 +36,6 @@ data/raw/*
 reports/debug/
 reports/graficos/*
 !reports/graficos/.gitkeep
-reports/resultados/*
-!reports/resultados/.gitkeep
 
 # Archivos del sistema
 .DS_Store

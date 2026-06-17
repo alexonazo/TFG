@@ -1,0 +1,10 @@
+﻿section,metric,value
+summary,raw_rows,2000072
+summary,raw_unique_tags,140979
+summary,tag_clean_valid_rows,2000049
+summary,semantic_category_rows,333937
+summary,semantic_category_missing_rows,1666135
+summary,final_reliable_tags,534
+summary,final_unique_tags_clean,534
+summary,final_rows_tags_semantic_clean,50897
+summary,final_movies_with_semantic_tags,16795
