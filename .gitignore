@@ -28,10 +28,6 @@ __pycache__/
 *~
 *.swp
 
-# Datasets pesados en bruto
-data/raw/*
-!data/raw/.gitkeep
-
 # Resultados generados
 reports/debug/
 reports/graficos/*
