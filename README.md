@@ -176,6 +176,12 @@ Instalación de dependencias:
 pip install -r requirements.txt
 ```
 
+python -m pip install ipykernel jupyter notebook
+python -m ipykernel install --user --name tfg-venv --display-name "TFG Python"
+jupyter kernelspec list
+
+Reiniciar la ventana y seleccionar el Kernel
+
 Para abrir Jupyter Notebook:
 
 ```bash
