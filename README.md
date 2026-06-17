@@ -216,7 +216,7 @@ powerbi/datasets/metricas_recomendador.csv
 powerbi/datasets/distribucion_recomendaciones.csv
 ```
 
-Estos ficheros se pueden abrir directamente desde Power BI Desktop o desde el proyecto `.pbip` incluido en `powerbi/`.
+Estos ficheros se pueden abrir directamente desde Power BI Desktop o desde el proyecto `.pbip` incluido en la carpeta de Drive dentro de PowerBi.
 
 ## 9. Notas de seguridad
 
